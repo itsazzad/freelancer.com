@@ -1,5 +1,5 @@
 /*
-Run the below code in the console of https://www.freelancer.com/job/
+Run the code in the console of https://www.freelancer.com/job/
 */
 var skills=[];
 jQuery('.job-category-item').each(function(){
