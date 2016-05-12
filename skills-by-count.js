@@ -5,10 +5,6 @@ var skills=[];
 jQuery('.job-category-item').each(function(){
    var title=jQuery(this).find('.job-category-link').text().trim();
    var matches = title.match(/\(([^)]*)\)[^(]*$/);
-   console.log(matches);
-   console.log(matches.length);
-   console.log(matches[1]);
-   console.log(matches.input.substr(0, matches.index-1));
    if(jQuery.isArray(skills[matches[1]])){
    }else{
       skills[matches[1]]=new Array();
